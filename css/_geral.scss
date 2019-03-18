@@ -5,9 +5,7 @@ body {
 }
 
 p {
-	font-family: Georgia, 'Times New Roman', serif;
-	font-size: 14px;
-	line-height: 20px;
+	@include type-2(14);
 }
 
 img {
@@ -22,8 +20,7 @@ img {
 
 #form-erro span,
 #form-send span {
-	font-size: 18px;
-	line-height: 25px;
+	@include type-1(18);
 	margin-bottom: 10px;
 	display: block;
 }
@@ -37,11 +34,10 @@ img {
 }
 
 .btn {
-	border: 3px solid $amarelo;
+	border: 3px solid $yellow;
 	padding: 10px 30px;
-	color: $amarelo;
-	font-size: 14px;
-	line-height: 20px;
+	color: $yellow;
+	@include type-1(14);
 	text-transform: uppercase;
 	font-weight: bold;
 	letter-spacing: 0.1em;
@@ -59,8 +55,7 @@ img {
 }
 
 .subtitulo {
-	font-size: 24px;
-	line-height: 30px;
+	@include type-1(24);
 	font-weight: bold;
 	letter-spacing: 0.1em;
 	color: $black;
@@ -79,8 +74,7 @@ img {
 }
 
 .subtitulo-interno {
-	font-size: 24px;
-	line-height: 30px;
+	@include type-1(24);
 	font-weight: bold;
 	letter-spacing: 0.1em;
 	color: $black;
@@ -103,7 +97,7 @@ img {
 	position: fixed;
 	top: 0;
 	width: 100%;
-	background: $amarelo; /* Amarelo */
+	background: $yellow;
 	padding: 15px 0;
 	z-index: 10;
 }
@@ -123,8 +117,7 @@ img {
 	font-weight: bold;
 	text-transform: uppercase;
 	letter-spacing: 0.1em;
-	font-size: 14px;
-	line-height: 20px;
+	@include type-1(14);
 	padding: 10px 0;
 	transition: all 0.3s ease;
 }
@@ -150,7 +143,7 @@ img {
 }
 
 .introducao h1 {
-	font-size: 48px;
+	@include type-1(48);
 	color: $white;
 	font-weight: bold;
 	text-transform: uppercase;
@@ -180,7 +173,7 @@ img {
 .quote-externo cite {
 	font-style: normal;
 	font-weight: bold;
-	font-size: 14px;
+	@include type-1(14);
 	letter-spacing: 0.1em;
 }
 
@@ -196,7 +189,7 @@ img {
 }
 
 .introducao-interna h1 {
-	font-size: 36px;
+	@include type-1(36);
 	font-weight: bold;
 	text-transform: uppercase;
 }
@@ -217,7 +210,7 @@ img {
 }
 
 .produtos_lista li {
-	background: $amarelo;
+	background: $yellow;
 	text-align: center;
 }
 
@@ -227,8 +220,7 @@ img {
 
 .produtos_lista li h3 {
 	font-weight: bold;
-	font-size: 18px;
-	line-height: 25px;
+	@include type-1(18);
 	text-transform: uppercase;
 	letter-spacing: 0.1em;
 	margin-top: 20px;
@@ -271,11 +263,11 @@ img {
 }
 
 .portfolio .subtitulo {
-	color: $amarelo;
+	color: $yellow;
 }
 
 .portfolio .subtitulo:after {
-	background: $amarelo;
+	background: $yellow;
 }
 
 .portfolio_lista div:last-of-type {
@@ -320,8 +312,7 @@ img {
 
 .qualidade_lista li h3 {
 	font-weight: bold;
-	font-size: 18px;
-	line-height: 25px;
+	@include type-1(18);
 	text-transform: uppercase;
 	letter-spacing: 0.1em;
 	margin-top: 20px;
@@ -361,9 +352,8 @@ img {
 }
 
 .footer h3 {
-	font-size: 18px;
-	line-height: 25px;
-	color: $amarelo;
+	@include type-1(18);
+	color: $yellow;
 	text-transform: uppercase;
 	letter-spacing: 0.1em;
 	font-weight: bold;
@@ -374,7 +364,7 @@ img {
 	display: block;
 	width: 60px;
 	height: 3px;
-	background: $amarelo;
+	background: $yellow;
 	margin: 6px 0 12px 0;
 }
 
@@ -383,9 +373,7 @@ img {
 }
 
 .footer_contato ul li {
-	font-size: 14px;
-	line-height: 20px;
-	font-family: Georgia, 'Times New Roman', serif;
+	@include type-2(14);
 }
 
 .footer_redes ul li {
@@ -394,7 +382,7 @@ img {
 }
 
 .footer_redes ul li a {
-	border: 3px solid $amarelo;
+	border: 3px solid $yellow;
 	display: block;
 	padding: 10px;
 	transition: all 0.5s ease;
@@ -406,7 +394,7 @@ img {
 
 .copy {
 	width: 100%;
-	background: $amarelo;
+	background: $yellow;
 	padding: 20px 0;
 }
 
